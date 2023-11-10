@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vacatoin Form</title>
+        <!-- Render All Elements Normally -->
+        <link rel="stylesheet" href="css/normalize.css" >
+        <!-- style css  -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- font  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <!-- other pages  -->
+
+    </head>
+    <body>
+        <!-- start header  -->
+        <header>
+            <div class="logo">Human Resource</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="add_employee.html">Add </a></li>
+                    <li><a href="edit_employee.html">Edit </a></li>
+                    <li><a href="search_employee.html">Search </a></li>
+                    <li><a href="vacation_form.html">Vacation Form</a></li>
+                    <li><a href="submitted_vacations.html">Submitted Vacations</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <fieldset>
+            <legend>
+                <h1>Vacation Form</h1>
+            </legend>
+            <form>
+                <table style="margin: 6px;border-spacing: 10px;">
+                    <caption><h3>Vacation form</h3></caption>
+                    <tr>
+                        <td>
+                            <label for="id">ID</label>
+                        </td>  
+                        <td><input type="text" name="id" id="id"></td>
+                    </tr>  
+                    <tr>
+                        <td>
+                            <label for="Reason">Reason</label>
+                            </td>
+                            <td><input type="text" name="Reason" id="Reason"></td>
+                        </tr>
+                    <tr>
+                        <td>
+                            <label for="from" ">from</label>
+                        </td>
+                        <td><input style="width: 100%;" type="date" name="startDate" id="from"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="to">to</label>
+                        </td>
+                        <td><input style="width:100% ;" type="date" name="endDate" id="to"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Status">Status</label>
+                        </td>
+                        <td><input type="text" name="Status" id="Status"></td>
+                    </tr>  
+
+                    <tfoot>
+                        <td><label for="Sub"></label>Submit</td>
+                        <td><input style="width: 100%;" type="submit" value="OK!" id="sub"></td>
+                    </tfoot>
+                </table>
+            </form>
+        </fieldset>
+    </body>
+</html>
