@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  :root {
+    --main-color: #FF1493;
+  }
+  .container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  /* start header  */
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #eee;
+    color: var(--main-color);
+    font-weight: bold;
+  }
+  header .logo {
+    font-size: 28px;
+  }
+  header nav {
+
+  }
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  header nav ul li {
+    list-style: none;
+    margin-left: 15px
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 16px;
+  }
+  /* end header  */
+  /* start landing page  */
+  .landing {
+  position: relative;
+  min-height: 100vh;
+  background-image: url(../images/landing5.jpg);
+  background-size: cover;
+  width: 100%;
+  }
+  .landing .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  .landing .container h2 {
+    font-size: 32px;
+    color: var(--main-color);
+    margin-bottom: 20px;
+  }
+  .landing .container p {
+    line-height: 1.7;
+    font-size: 18px;
+  }
+  /* end landing page  */
