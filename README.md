@@ -1,2 +1,2 @@
-# Human-Resources-Project
-https://awahba00.github.io/Human-Resources-Project/
+# Human-Resource-Project
+https://a-moawad.github.io/Human-Resource-Project/
